@@ -33,3 +33,11 @@ class E:
 
     def foo(self: Self) -> Self:
         return self.bar()
+
+
+class F:
+    def bar(self):
+        return self
+
+    def foo(self: Self) -> Self:
+        return self.bar()
